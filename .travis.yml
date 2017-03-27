@@ -4,8 +4,9 @@ python:
 # command to install dependencies
 install: "pip install -r requirements.txt"
 install: "python setup.py bdist_wheel"
+
 # command to run tests
-# script: pytest
+script: nosetests
 
 after_success:
   - pylint app
