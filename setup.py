@@ -12,8 +12,10 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
-        'Flask>=0.10',
-        'SQLAlchemy>=1.1.6'
+        'Flask>=0.12',
+        'SQLAlchemy>=1.1.6',
+        'flask-restplus>=0.10.1',
+        'Flask-SQLAlchemy>=2.2'
     ],
     test_suite='nose.collector',
     tests_require=['nose'],
