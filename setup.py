@@ -19,6 +19,7 @@ setup(
         'CherryPy>=10.2.1',
         'Paste>=2.0.3',
         'pylint',
+        'nose'
     ],
     test_suite='nose.collector',
     tests_require=['nose'],
